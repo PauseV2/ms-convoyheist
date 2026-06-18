@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Convoy Heist HUD</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="taskHud" class="hidden">
+        <div class="task-card">
+            <div class="task-header">
+                <span class="task-ring"></span>
+                <span class="task-title">Current Task:</span>
+            </div>
+            <div class="task-divider"></div>
+            <div id="taskText" class="task-text"></div>
+            <div class="task-footer">
+                <span id="toggleKeyBadge" class="key-badge">G</span>
+                <span class="task-hint">Press to hide</span>
+            </div>
+        </div>
+    </div>
+    <div id="dialogueBox" class="hidden">
+        <div class="dialogue-card">
+            <div id="dialogueSpeaker" class="dialogue-speaker"></div>
+            <div id="dialogueText" class="dialogue-text"></div>
+            <div class="dialogue-footer">
+                <span class="key-badge">ENTER</span>
+                <span class="task-hint">Continue</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
